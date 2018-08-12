@@ -27,6 +27,7 @@ int create_js(void)
 			if(s){
 				DEBUG("create js string is %s",s);
 				free(s);
+				
 			}
 		}
 		cJSON_Delete(root);
