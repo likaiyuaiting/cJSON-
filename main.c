@@ -12,7 +12,6 @@ int create_js(void)
 	/* create json string root*/
 	root = cJSON_CreateObject();
 	if(!root){
-		
 		DEBUG("get root faild!\n");
 	goto EXIT;
 	}else DEBUG("get root success!\n");
